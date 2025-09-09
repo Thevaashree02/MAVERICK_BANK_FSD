@@ -1,0 +1,181 @@
+.nav-logo {
+    height: 60px;
+    width: auto;
+}
+
+.sidebar-logo {
+    height: 30px;
+    width: auto;
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+
+.container-fluid {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html, body, #root {
+    min-height: 100vh;
+    background-color: #e8e8e8;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Profile text gradient */
+.profile {
+    background-image: linear-gradient(
+            to right,
+            #001f3f,
+            #003366,
+            #004080,
+            #00509e,
+            #0074d9
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.profile .dropdown-item {
+    background-image: linear-gradient(
+            to right,
+            #001f3f,
+            #003366,
+            #004080,
+            #00509e,
+            #0074d9
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+/* Navbar link gradient */
+.nav-title .nav-link {
+    background-image: linear-gradient(
+            to right,
+            #001f3f,
+            #003366,
+            #004080,
+            #00509e,
+            #0074d9
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out, font-size 0.3s ease-in-out;
+}
+
+.nav-title .nav-link:hover {
+    font-size: 1.15rem;
+}
+
+/* Gradient titles */
+.navbar-brand .nav-title,
+.title-account,
+.transaction-heading {
+    background-image: linear-gradient(
+            to right,
+            #001f3f,
+            #003366,
+            #004080,
+            #00509e,
+            #0074d9
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+/* Loan sections */
+.Apply-title,
+.Application-title,
+.beneficiary-title,
+.myloan-title,
+.createAcc-title,
+.Loan-title,
+.main-title,
+.mybranch-title {
+    background-image: linear-gradient(
+            to right,
+            #001f3f,
+            #003366,
+            #004080,
+            #00509e,
+            #0074d9
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+/* Loan & Branch Cards */
+.loan-card,
+.mybranch-card {
+    position: relative;
+    padding: 16px;
+    border-radius: 8px;
+    background: white;
+    transition: box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.loan-card::before,
+.mybranch-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6px;
+    height: 100%;
+    background: linear-gradient(
+            to bottom,
+            #001f3f,
+            #003366,
+            #004080,
+            #00509e,
+            #0074d9
+    );
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.loan-card:hover,
+.mybranch-card:hover {
+    box-shadow: 0 0 10px rgba(13, 110, 253, 0.3);
+}
+
+/* DataTable Styling */
+.p-datatable .p-column-header-content {
+    justify-content: center !important;
+}
+
+.p-datatable .p-cell-content {
+    justify-content: center !important;
+    display: flex;
+    align-items: center;
+}
+
+.p-datatable {
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.p-datatable .p-datatable-tbody > tr {
+    border-bottom: 1px solid #dee2e6;
+}

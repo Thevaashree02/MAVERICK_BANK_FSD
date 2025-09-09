@@ -1,0 +1,85 @@
+
+/* General Body and HTML styling for full height */
+html,
+body,
+#root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f5f7fa; /* Soft neutral bg */
+}
+
+/* Text shadow for left column */
+.login-text-shadow-md {
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* General button styling */
+.login-btn {
+    background: linear-gradient(
+            to right,
+            #0074d9,
+            #004080
+    );
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.75em 1.5em;
+    transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+    background: linear-gradient(
+            to right,
+            #004080,
+            #00264d
+    );
+    transform: translateY(-2px);
+}
+
+/* Login text */
+.login-card-title {
+    background: linear-gradient(
+            to right,
+            #0074d9,
+            #003366
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    padding-top: 1em;
+}
+
+.login-logo {
+    height: 160px;
+    width: auto;
+}
+
+.login-gradient-text {
+    background: linear-gradient(
+            to right,
+            #004080,
+            #0074d9
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+.login-container-fluid {
+    background: linear-gradient(
+            to right,
+            #001f3f,  /* Dark Navy */
+            #003366,
+            #004080,
+            #00509e,
+            #0074d9   /* Bright Blue */
+    );
+}
+
+
